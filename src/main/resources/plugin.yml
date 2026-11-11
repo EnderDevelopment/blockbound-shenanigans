@@ -1,0 +1,14 @@
+name: ArenaClash
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Original fast-paced arena combat systems for Paper.
+commands:
+  arena:
+    description: Join or leave the combat arena.
+    usage: /arena <join|leave|kit|help>
+    aliases: [ac]
+permissions:
+  arenaclash.admin:
+    description: Allows arena administration commands.
+    default: op
